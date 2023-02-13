@@ -1,0 +1,163 @@
+/* PC */
+@media (min-width: 64em) {
+    #content #contact {
+        height: 450px ;
+    }
+
+}
+
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em)
+{
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+
+
+    .s-full-width {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .contact-form .form-control {
+        padding: 15px ;
+        font-size: 16px;
+    }
+
+    .contact-form .btn,
+    .btn {
+        padding: 16px 16px;
+    } 
+
+    .social-list {
+        font-size: 48px;
+    }
+
+    .contact-info p{
+        line-height: 37px;
+    }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
+    #footer .social-list a {
+        margin: 0 6px;
+    }
+
+    #footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+
+} 
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #content #contact {
+        height: 450px ;
+    }
+
+    .contact-form .s-full-width {
+        width: 50% !important;
+    }
+
+}
+
+
+
+/* MOBILE */
+@media (max-width: 46.1875em) {
+    .s-full-width {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content #band {
+        height: 1500px;
+    }
+
+    #content .member-item {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    #content .member-img {
+        width: 80%;
+    }
+
+    #content .tour-section .content-section {
+        height: 1800px;
+        background-color: #000;
+    }
+
+    .tour-first {
+        width: 100%;
+    }
+
+    .col-half {
+        width: 100%;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        margin-bottom: 16px;
+    }
+
+    #content #contact {
+        height: 600px;
+    }
+    
+    .contact-content {
+        margin-top: 0px;
+        padding: 32px 0px;
+    }
+
+    .row .col:first-child {
+        margin-bottom: 8px;
+    }
+
+}
